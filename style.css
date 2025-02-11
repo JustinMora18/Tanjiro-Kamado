@@ -1,0 +1,6 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: hsl(208, 100%, 97%);
+}
