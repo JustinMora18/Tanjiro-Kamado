@@ -84,14 +84,14 @@ html, body{
 }
 
 .text h1{
-    font-family: "Anton";
+    font-family: "Anton", sans-serif, Arial;
     font-size:65px;
     margin: 0;
     line-height: 100%;
 }
 
 h2{
-    font-family: "Noto Serif JP";
+    font-family: "Noto Serif JP", sans-serif, Arial;
     font-weight: 900;
     z-index: 2;
     color: aliceblue;
@@ -102,7 +102,16 @@ h2{
 }
 
 .text p{
-    font-family: "Sora";
+    font-family: "Sora", sans-serif, Arial;
     font-size: 12px;
     line-height:1.5;
+}
+
+.links{
+    color: aliceblue;
+    font-family: "Sora", sans-serif, Arial;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    
 }
