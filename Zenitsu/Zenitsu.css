@@ -5,7 +5,7 @@ html, body{
     color: hsl(208, 100%, 97%);
 }
 
-.backgroundT{
+.background{
     background-image: url(/Assets/Bgs/Bg-Zenitsu/Bg-Zenitsu-One.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ html, body{
     position: relative;
 }
 
-.backgroundT::before {
+.background::before {
     content: "";
     position: absolute;
     top: 0;
